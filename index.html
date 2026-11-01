@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aditya Raj – AI/ML and data analysis, Bengaluru</title>
+<meta name="description" content="Aditya Raj, B.E. Bio-Technology student at RV College of Engineering. Builds LLM routing, RAG and reinforcement learning projects, and analyses data with SQL, Python and Power BI.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input type="radio" name="view" id="view-ai" class="vswitch" checked>
+<input type="radio" name="view" id="view-data" class="vswitch">
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top">Aditya Raj</a>
+    <nav aria-label="Sections">
+      <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="switch" role="group" aria-label="Choose profile view">
+      <label for="view-ai">AI/ML profile</label>
+      <label for="view-data">Data analyst profile</label>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <p class="name">Aditya Raj · Bio-Technology student, RV College of Engineering, Bengaluru</p>
+      <h1 id="h1">
+        <span class="only-ai">I build LLM systems that spend less and check their own answers.</span>
+        <span class="only-data">I clean messy data, find the trend, and build the dashboard that explains it.</span>
+      </h1>
+      <p class="lede only-ai">My projects cover LLM model routing, RAG, reinforcement learning and ML prediction, written in Python and FastAPI. I am looking for AI/ML Engineer and Applied AI internships or entry-level roles.</p>
+      <p class="lede only-data">I work in SQL, Python (Pandas, NumPy), Excel and Power BI, and I currently work as a Data Analyst and Software Developer intern. I am looking for Data Analyst and Business Analyst roles.</p>
+      <p class="proof only-ai">MLH Track Prize (Backboard.io), NMIT HACKS 2026, for RTI-Lens</p>
+      <p class="proof only-data">Bold Analytics intern: raw data to Power BI dashboards and recommendations</p>
+      <div class="cta">
+        <a class="btn main" href="#projects">See the projects</a>
+        <a class="btn" href="#resume-link">Resume <span class="todo">TODO: PDF link</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="h-projects">
+    <div class="wrap">
+      <h2 id="h-projects">Projects</h2>
+      <ol class="ordered">
+
+        <li class="proj" style="--ai:1;--da:3">
+          <p class="fig"><b>65.7%</b><span>lower cost than Super-only, 40-ticket dev set</span></p>
+          <div>
+            <h3>Cascade: a cost-aware model router for AI agents</h3>
+            <p>Requests start on NVIDIA Nemotron Nano and move up to Super and then Ultra only when a verifier rejects the answer. The verifier checks schema, tool grounding, policy rules, self-consistency and an LLM judge. Every call logs tokens, cost and latency to SQLite for a Streamlit dashboard and evaluation harness.</p>
+            <p>On the dev set it reached 90.0% accuracy.</p>
+            <p class="caveat">Held-out result: on a 50-ticket frozen set, Cascade scored 42.0% accuracy against 56.0% for single-tier baselines, at about 73% lower cost than Super-only. The router saves money, but it loses accuracy on unseen tickets.</p>
+            <p class="stack">Python, FastAPI, Pydantic, SQLite, Streamlit, Docker, NVIDIA Nemotron · <span class="todo">TODO: repo URL</span></p>
+          </div>
+        </li>
+
+        <li class="proj" style="--ai:2;--da:5">
+          <p class="fig"><b>8 cities</b><span>EMS, Fire and Police agents</span></p>
+          <div>
+            <h3>OpenEnv (City Ops): multi-agent emergency response simulator</h3>
+            <p>A 3D simulator where EMS, Fire and Police agents coordinate, trained with reinforcement learning (PPO). It includes a simulated signal-spoofing scenario with a spatial trust heatmap, and runs on Hugging Face Spaces.</p>
+            <p class="stack">Next.js, React Three Fiber, FastAPI, PPO · <span class="todo">TODO: repo URL and Space URL</span></p>
+          </div>
+        </li>
+
+        <li class="proj" style="--ai:3;--da:4">
+          <p class="fig"><b>713</b><span>CIC precedent documents searched</span></p>
+          <div>
+            <h3>RTI-Lens: AI-powered RTI analytics platform</h3>
+            <p class="prize">Won the MLH Track Prize (Backboard.io) at NMIT HACKS 2026.</p>
+            <p>A hybrid RAG pipeline (BM25 plus embeddings) feeds a multi-agent LLM pipeline of three Groq agents with Gemini orchestration. It produces case-grounded RTI answers, draft appeals and outcome predictions.</p>
+            <p class="stack">React, FastAPI, RAG, Groq, Gemini, PostgreSQL, MongoDB · <span class="todo">TODO: repo URL</span></p>
+          </div>
+        </li>
+
+        <li class="proj" style="--ai:4;--da:1">
+          <p class="fig"><b>14 lots, 73 days</b><span>about 18,000–20,000 records at 30-minute intervals</span></p>
+          <div>
+            <h3>Real-time dynamic pricing for urban parking</h3>
+            <p>Summer Analytics 2025 capstone. I simulated a real-time pricing engine, streamed the data through Pathway, and compared three pricing models: linear, demand-based with manually tuned weights, and competitive with Haversine proximity. Results appear on live Bokeh dashboards.</p>
+            <p class="stack">Python, Pathway, Bokeh · <span class="todo">TODO: repo URL</span></p>
+          </div>
+        </li>
+
+        <li class="proj" style="--ai:5;--da:2">
+          <p class="fig"><b>3 models</b><span>compared on R², MAE and RMSE</span></p>
+          <div>
+            <h3>FermentAI: fermentation yield prediction and media optimization</h3>
+            <p>Linear Regression, Random Forest and XGBoost predict yield from process parameters, and the pipeline picks the best model automatically. An optimization engine (SciPy Differential Evolution plus Randomized Search) recommends fermentation conditions in a Streamlit dashboard.</p>
+            <p class="stack">Python, Scikit-learn, XGBoost, SciPy, Streamlit · <span class="todo">TODO: repo URL</span></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="experience" aria-labelledby="h-exp">
+    <div class="wrap">
+      <h2 id="h-exp">Experience</h2>
+      <ol class="timeline">
+        <li class="now">
+          <h3>Data Analyst &amp; Software Developer Intern, Pushpaka Dashanan</h3>
+          <p class="when">Ongoing · start date <span class="todo">TODO</span></p>
+          <p>I work on three portals, combining data analysis with software development.</p>
+        </li>
+        <li>
+          <h3>Data Analyst Intern, Bold Analytics (remote)</h3>
+          <p class="when">May 2026 – Jul 2026</p>
+          <ul>
+            <li>Cleaned and transformed several real-world datasets with Python (Pandas, NumPy).</li>
+            <li>Found trends and anomalies using SQL, Excel and Python.</li>
+            <li>Built interactive Power BI dashboards from raw data through to recommendations.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Cybersecurity Analyst Virtual Job Simulation, Tata Group (Forage)</h3>
+          <p class="when">May 2024</p>
+          <p>Completed tasks in threat analysis, ethical hacking and incident response.</p>
+        </li>
+        <li>
+          <h3>B.E. Bio-Technology, RV College of Engineering</h3>
+          <p class="when">Bengaluru, Karnataka · currently pursuing</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="skills" aria-labelledby="h-skills">
+    <div class="wrap">
+      <h2 id="h-skills">Skills</h2>
+      <ul class="ordered skills">
+        <li style="--ai:1;--da:3"><h3>AI and LLM</h3><p>NVIDIA Nemotron (API), LLM routing and verification, function calling, hybrid RAG (BM25 + embeddings), multi-agent LLM pipelines, Groq, Gemini, reinforcement learning (PPO)</p></li>
+        <li style="--ai:2;--da:1"><h3>Data and analytics</h3><p>SQL, Python, Pandas, NumPy, Excel (Pivot Tables, VLOOKUP), Power BI, exploratory data analysis, data cleaning, ETL, trend and anomaly analysis, Matplotlib, Bokeh, Pathway (streaming)</p></li>
+        <li style="--ai:3;--da:2"><h3>Machine learning</h3><p>Scikit-learn, XGBoost, SciPy, regression, predictive modeling</p></li>
+        <li style="--ai:4;--da:4"><h3>Backend and databases</h3><p>FastAPI, Pydantic, React, Streamlit, PostgreSQL, MongoDB Atlas, SQLite</p></li>
+        <li style="--ai:5;--da:5"><h3>Tools and languages</h3><p>Docker, Git/GitHub, Hugging Face Spaces, JavaScript/TypeScript, HTML/CSS</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="achievements" aria-labelledby="h-ach">
+    <div class="wrap">
+      <h2 id="h-ach">Achievements</h2>
+      <ul class="ordered wins">
+        <li style="--ai:1;--da:2"><b>MLH Track Prize (Backboard.io), NMIT HACKS 2026</b><br>For RTI-Lens.</li>
+        <li style="--ai:2;--da:1"><b>Reliance Foundation Scholar</b><br>₹50,000 a year merit scholarship. All India Rank 566 among 4.6+ lakh students in a national exam.</li>
+        <li style="--ai:3;--da:3"><b>Joint Director, Club Services Avenue, Rotaract Club of RVCE (2025–26)</b><br>Stakeholder coordination and team leadership.</li>
+        <li style="--ai:4;--da:4"><b>Certifications</b><br>Cybersecurity Analyst Job Simulation (Tata, Forage) · Networking Basics (Cisco) · AI/ML, Python, Java (Udemy) · Cybersecurity Fundamentals (Udemy) · Leadership &amp; Sustainability (IUCEE NEP)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" aria-labelledby="h-contact">
+    <div class="wrap">
+      <h2 id="h-contact">Contact</h2>
+      <p>I am based in Bengaluru. Email is the fastest way to reach me.</p>
+      <p><a href="mailto:adi111sam121@gmail.com">adi111sam121@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/aditya-raj-a1891a285">LinkedIn</a> · <a href="https://github.com/aditweb13">GitHub</a></p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Aditya Raj · Bengaluru</div></footer>
+</body>
+</html>
