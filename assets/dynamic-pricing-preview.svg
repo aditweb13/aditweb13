@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pricingBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="50%" stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#pricingBg)" stroke="#3f3f46" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="24" y="24" width="752" height="44" rx="8" fill="#27272a" opacity="0.6"/>
+  <circle cx="48" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="68" cy="46" r="6" fill="#eab308"/>
+  <circle cx="88" cy="46" r="6" fill="#22c55e"/>
+  <text x="115" y="52" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">Summer Analytics 2025 Capstone · Real-Time Dynamic Pricing Engine</text>
+
+  <!-- Title & Badges -->
+  <text x="48" y="125" fill="#fafafa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700">Real-Time Dynamic Pricing for Urban Parking</text>
+  <rect x="48" y="145" width="125" height="26" rx="13" fill="#7c2d12" opacity="0.4"/>
+  <text x="62" y="162" fill="#fb923c" font-family="monospace" font-size="12" font-weight="600">Pathway Stream</text>
+  <rect x="183" y="145" width="115" height="26" rx="13" fill="#065f46" opacity="0.4"/>
+  <text x="197" y="162" fill="#34d399" font-family="monospace" font-size="12" font-weight="600">Bokeh Live UI</text>
+  <rect x="308" y="145" width="105" height="26" rx="13" fill="#1e40af" opacity="0.4"/>
+  <text x="322" y="162" fill="#60a5fa" font-family="monospace" font-size="12" font-weight="600">Haversine ML</text>
+
+  <!-- Comparative cards -->
+  <g transform="translate(48, 195)">
+    <rect x="0" y="0" width="220" height="100" rx="10" fill="#27272a" stroke="#3f3f46"/>
+    <text x="18" y="32" fill="#fb923c" font-family="monospace" font-size="14" font-weight="700">1. Linear Model</text>
+    <text x="18" y="55" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="12">Occupancy / Capacity ratio</text>
+    <text x="18" y="75" fill="#71717a" font-family="-apple-system, sans-serif" font-size="11">Bounded baseline pricing ($5–$20)</text>
+
+    <rect x="240" y="0" width="220" height="100" rx="10" fill="#27272a" stroke="#3f3f46"/>
+    <text x="258" y="32" fill="#38bdf8" font-family="monospace" font-size="14" font-weight="700">2. Demand Model</text>
+    <text x="258" y="55" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="12">Queue length + Traffic + Event</text>
+    <text x="258" y="75" fill="#71717a" font-family="-apple-system, sans-serif" font-size="11">Multi-factor weighted sensitivity</text>
+
+    <rect x="480" y="0" width="224" height="100" rx="10" fill="#27272a" stroke="#3f3f46"/>
+    <text x="498" y="32" fill="#a855f7" font-family="monospace" font-size="14" font-weight="700">3. Competitive Model</text>
+    <text x="498" y="55" fill="#a1a1aa" font-family="-apple-system, sans-serif" font-size="12">Haversine proximity distance</text>
+    <text x="498" y="75" fill="#71717a" font-family="-apple-system, sans-serif" font-size="11">Dynamic neighbor-aware equilibrium</text>
+  </g>
+
+  <!-- Metric bar -->
+  <rect x="48" y="325" width="704" height="50" rx="8" fill="#18181b" stroke="#3f3f46"/>
+  <text x="70" y="356" fill="#fb923c" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">📊 Dataset: <tspan fill="#f4f4f5">14 parking lots · 73 days (~18,000–20,000 records streamed at 30-min intervals)</tspan></text>
+
+  <text x="400" y="415" text-anchor="middle" fill="#71717a" font-family="-apple-system, sans-serif" font-size="12">📸 Replace with live Bokeh streaming chart screenshot: assets/dynamic-pricing-preview.png</text>
+</svg>

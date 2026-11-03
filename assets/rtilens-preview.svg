@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rtiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#rtiBg)" stroke="#3b82f6" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="24" y="24" width="752" height="44" rx="8" fill="#1e293b" opacity="0.6"/>
+  <circle cx="48" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="68" cy="46" r="6" fill="#eab308"/>
+  <circle cx="88" cy="46" r="6" fill="#22c55e"/>
+  <text x="115" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">RTI-Lens · AI-Powered RTI Analytics &amp; First Appeal Assistant</text>
+
+  <!-- Prize badge -->
+  <rect x="48" y="90" width="460" height="30" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+  <text x="60" y="110" fill="#fde68a" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">🏆 MLH Track Prize Winner (Backboard.io) · NMIT HACKS 2026</text>
+
+  <!-- Title & Badges -->
+  <text x="48" y="155" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700">RTI-Lens: AI RTI Analytics Platform</text>
+  <rect x="48" y="172" width="105" height="26" rx="13" fill="#1e40af" opacity="0.4"/>
+  <text x="62" y="189" fill="#60a5fa" font-family="monospace" font-size="12" font-weight="600">Hybrid RAG</text>
+  <rect x="163" y="172" width="145" height="26" rx="13" fill="#b45309" opacity="0.4"/>
+  <text x="177" y="189" fill="#fb923c" font-family="monospace" font-size="12" font-weight="600">Groq Multi-Agent</text>
+  <rect x="318" y="172" width="135" height="26" rx="13" fill="#047857" opacity="0.4"/>
+  <text x="332" y="189" fill="#34d399" font-family="monospace" font-size="12" font-weight="600">Gemini Orchestration</text>
+  <rect x="463" y="172" width="105" height="26" rx="13" fill="#6d28d9" opacity="0.4"/>
+  <text x="477" y="189" fill="#c084fc" font-family="monospace" font-size="12" font-weight="600">Solana Audit</text>
+
+  <!-- Key Architecture Pillars -->
+  <g transform="translate(48, 218)">
+    <rect x="0" y="0" width="220" height="95" rx="8" fill="#0f172a" stroke="#1e293b"/>
+    <text x="16" y="28" fill="#60a5fa" font-family="monospace" font-size="13" font-weight="700">713 CIC Court Orders</text>
+    <text x="16" y="50" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">5,251 vector chunks</text>
+    <text x="16" y="70" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">BM25 40% + MiniLM 60% fusion</text>
+
+    <rect x="240" y="0" width="220" height="95" rx="8" fill="#0f172a" stroke="#1e293b"/>
+    <text x="256" y="28" fill="#fb923c" font-family="monospace" font-size="13" font-weight="700">3-Agent Legal Draft</text>
+    <text x="256" y="50" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Legal precision + strategy</text>
+    <text x="256" y="70" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Gemini synthesis for first-appeal</text>
+
+    <rect x="480" y="0" width="224" height="95" rx="8" fill="#0f172a" stroke="#1e293b"/>
+    <text x="496" y="28" fill="#f43f5e" font-family="monospace" font-size="13" font-weight="700">Backboard.io Threads</text>
+    <text x="496" y="50" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Workflow observability</text>
+    <text x="496" y="70" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">PostgreSQL audit trail &amp; timing</text>
+  </g>
+
+  <!-- Note banner -->
+  <rect x="48" y="335" width="704" height="40" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="70" y="360" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="13">Outcome Predictor (&lt;100ms) · Knowledge Graph · Voice STT/TTS</text>
+
+  <text x="400" y="415" text-anchor="middle" fill="#64748b" font-family="-apple-system, sans-serif" font-size="12">📸 Replace with live Q&amp;A / Appeal Draft screenshot: assets/rtilens-preview.png</text>
+</svg>
