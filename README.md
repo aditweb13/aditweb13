@@ -284,10 +284,10 @@
 ### ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-<!-- Auto-updated via GitHub Actions .github/workflows/activity.yml -->
-- 🚀 Explored and deployed multi-agent reinforcement learning simulations and LLM evaluation harnesses
-- 🛠️ Engineering data portals and software pipelines at Pushpaka Dashanan
-- 🏆 Awarded MLH Track Prize (Backboard.io) at NMIT HACKS 2026 for RTI-Lens
+1. 🎉 Merged PR [#1](https://github.com/aditweb13/microbial/pull/1) in [aditweb13/microbial](https://github.com/aditweb13/microbial)
+2. 🎉 Merged PR [#1](https://github.com/aditweb13/Capston-Project/pull/1) in [aditweb13/Capston-Project](https://github.com/aditweb13/Capston-Project)
+3. 🎉 Merged PR [#1](https://github.com/aditweb13/city-opes/pull/1) in [aditweb13/city-opes](https://github.com/aditweb13/city-opes)
+4. 🎉 Merged PR [#1](https://github.com/aditweb13/Nvidia/pull/1) in [aditweb13/Nvidia](https://github.com/aditweb13/Nvidia)
 <!--END_SECTION:activity-->
 
 ---
