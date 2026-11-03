@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="openenvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#041f1a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#openenvBg)" stroke="#134e4a" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="24" y="24" width="752" height="44" rx="8" fill="#1e293b" opacity="0.6"/>
+  <circle cx="48" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="68" cy="46" r="6" fill="#eab308"/>
+  <circle cx="88" cy="46" r="6" fill="#22c55e"/>
+  <text x="115" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">OpenEnv · 3D Tactical Multi-Agent Simulator · Hugging Face Spaces</text>
+
+  <!-- Title & Badges -->
+  <text x="48" y="125" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700">OpenEnv (City Ops): Multi-Agent Response Simulator</text>
+  <rect x="48" y="145" width="80" height="26" rx="13" fill="#047857" opacity="0.4"/>
+  <text x="62" y="162" fill="#34d399" font-family="monospace" font-size="12" font-weight="600">PPO RL</text>
+  <rect x="138" y="145" width="145" height="26" rx="13" fill="#0369a1" opacity="0.4"/>
+  <text x="152" y="162" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="600">React Three Fiber</text>
+  <rect x="293" y="145" width="135" height="26" rx="13" fill="#6d28d9" opacity="0.4"/>
+  <text x="307" y="162" fill="#c084fc" font-family="monospace" font-size="12" font-weight="600">Mistral-7B Trust</text>
+  <rect x="438" y="145" width="115" height="26" rx="13" fill="#ca8a04" opacity="0.4"/>
+  <text x="452" y="162" fill="#facc15" font-family="monospace" font-size="12" font-weight="600">8 Indian Cities</text>
+
+  <!-- City 3D Grid Mock -->
+  <g transform="translate(48, 195)">
+    <rect x="0" y="0" width="340" height="105" rx="10" fill="#0f172a" stroke="#1e293b"/>
+    <text x="20" y="32" fill="#34d399" font-family="monospace" font-size="14" font-weight="700">Multi-Agent Dispatch Grid</text>
+    <text x="20" y="56" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">🚒 Fire Agents · 🚑 EMS Units · 🚓 Police</text>
+    <text x="20" y="78" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Coordinating dynamic cascades across Bengaluru, Mumbai &amp; Delhi</text>
+
+    <rect x="360" y="0" width="344" height="105" rx="10" fill="#0f172a" stroke="#1e293b"/>
+    <text x="380" y="32" fill="#f43f5e" font-family="monospace" font-size="14" font-weight="700">Adversarial Trust Heatmap</text>
+    <text x="380" y="56" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Detects and isolates malicious "Ghost Signals"</text>
+    <text x="380" y="78" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Semantic verification layer via Mistral-7B API</text>
+  </g>
+
+  <!-- Live link pill -->
+  <rect x="48" y="325" width="704" height="50" rx="8" fill="#0f172a" stroke="#134e4a"/>
+  <text x="70" y="356" fill="#34d399" font-family="-apple-system, sans-serif" font-size="14" font-weight="600">🚀 Live Demo on HF Spaces: <tspan fill="#f1f5f9">rajadityaaaaaa-file2-openenv.hf.space</tspan></text>
+
+  <text x="400" y="415" text-anchor="middle" fill="#64748b" font-family="-apple-system, sans-serif" font-size="12">📸 Replace with live 3D tactical HUD screenshot: assets/openenv-preview.png</text>
+</svg>
